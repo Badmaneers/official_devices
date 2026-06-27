@@ -3,3 +3,13 @@ Build Date : 26/06/2026
 - Official Device addition
 - Fixed OTG now working
 - Enabled blur by-default
+Build Date : 27/06/2026
+- Enabled auxiliary cameras (macro, depth)
+- Improved WiFi performance (reduced scan interval, tuned RSSI thresholds)
+- SurfaceFlinger CPU policy floor for smoother UI
+- Added and Tuned powerhint and ax_perf_config for reduced jank
+- Switched to BBR congestion control for faster uploads
+- Fixed Egis fingerprint sensor not working.
+- Added RMX3193 (India 13MP) and RMX3197 variants
+- Optimized JPEG decode for faster thumbnail loading
+- Added finer media volume steps (25 steps)
